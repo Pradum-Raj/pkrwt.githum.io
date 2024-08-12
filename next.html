@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Image Border on Button Hover</title>
+    <style>
+      /* General styling */
+      body {
+        font-family: Arial, sans-serif;
+        display: inline-block;
+        justify-content: center;
+    
+        height: 100vh;
+        margin: 25px;
+
+        background: radial-gradient(yellow, cyan);
+      }
+
+      .container {
+        text-align: center;
+  
+      }
+
+      .image-container {
+        display: inline-block;
+        margin-bottom: 20px;
+        transition: border 0.3s ease;
+      }
+
+      .image-container img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        display: block;
+        border: 5px solid transparent;
+        box-sizing: border-box;
+        box-shadow: 1px 3px 8px 6px black;
+    margin: 20px;
+        animation-direction: alternate-reverse;
+        animation-name: image_2;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+      }
+
+      .image-container img:hover {
+        transform: scale(1.1);
+        transition-duration: 1s;
+      }
+      @keyframes image_2 {
+        form {
+          background-color: rgb(207, 22, 232);
+        }
+        to {
+          background-color: rgb(207, 25, 231);
+          box-shadow: 0px 0px 13px 7px red;
+        }
+      }
+
+      .hover-button {
+        background-color: #ff1500;
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        border-radius: 5px;
+        font-size: 30px;
+        border: none;
+        align-items: center;
+        animation-name: image;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+      }
+      @keyframes image {
+        form {
+          background-color: red;
+        }
+        to {
+          background-color: red;
+          box-shadow: 0px 0px 30px 10px red;
+        }
+      }
+    .btn button {
+      text-decoration: none;
+      font-size: 35px;
+    
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    animation-name: image;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+    }
+    @keyframes image {
+        form {
+          background-color: red;
+        }
+        to {
+          background-color:blue;
+          box-shadow: 0px 0px 20px 10px blue;
+        }
+      }
+      a{
+        text-decoration: none;
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container">
+    
+      <div class="image-container">
+    
+        <img src="Beautiful girls long (13).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src="Beautiful girls long (14).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src="Beautiful girls long (15).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src="Beautiful girls long (16).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src="Beautiful girls long (17).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src=" Beautiful girls long (18).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src=" Beautiful girls long (19).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src="Beautiful girls long (20).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src=" Beautiful girls long (21).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src="Beautiful girls long (22).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src=" Beautiful girls long (23).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src="beautiful girls long (24).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src="Beautiful girls long (25).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src="Beautiful girls long (26).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src=" Beautiful girls long (27).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src=" Beautiful girls long (28).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src="Beautiful girls long (29).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src=" Beautiful girls long (30).jpg" alt="Responsive Image" />
+      </div>
+      <div class="image-container">
+        <img src="Beautiful girls long (31).jpg" alt="Responsive Image" />
+      </div>
+       <div class="btn">
+        <button><a href="about.html">Back</button>
+            
+      
+      </div>
+    </div>
+  </body>
+</html>

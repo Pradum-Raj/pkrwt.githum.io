@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(red,yellow,blue);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro-container {
+    background: linear-gradient(green,skyblue);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 14px 7px 10px black;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    animation-name: image;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-direction: alternate-reverse;
+}
+
+      @keyframes image {
+        form {
+          background-color: white;
+        }
+        to {
+          background-color:white;
+          box-shadow: 0px 0px 30px 10px white;
+        }
+      }
+
+.intro-text h1 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+   text-shadow: 3px 11px 5px rgba(128, 0, 2, 0.73);
+    
+
+}
+
+.intro-text p {
+    font-size: medium;
+    color:black;
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 2px 1px white;
+}
+b{
+    color: black;
+    font-style: italic;
+    
+    text-shadow: 1px 3px 2px rgba(128, 0, 2, 0.73);
+}
+h2{
+    font: optional;
+    font-size: medium;
+    text-align: center;
+    color: brown;
+    font: bold;
+    text-shadow: 1px 2px 1px white;
+}
+.btn_2 button {
+      text-decoration: none;
+      font-size: medium;
+    
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    animation-name: btn;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+    }
+    @keyframes btn {
+        form {
+          background-color: red;
+        }
+        to {
+          background-color: red;
+          box-shadow: 0px 0px 20px 10px red;
+        }
+      }
+      a{
+        text-decoration: none;
+        color:white;
+      }
+    </style>
+</head>
+<body>
+    <div class="intro-container">
+        <img src="Beautiful girls long (5).jpg" alt="Your Image" class="profile-image">
+        <div class="intro-text">
+          <marquee behavior="alternate"  scrollamount="1"><h1>Hello, I'm PRADEEP KUAMR</h1></marquee>
+            <p> I'm a <b>[Fullstack Developer]</b>, and I love [Coding].</p>
+            <p>"Welcome to my personal page where I share insights about my work and passions"..</p>
+        <marquee behavior="scroll" direction="left" scrollamount="4"><h2>Aap Apni multiple photo ko link me Generate krwa sakte h.</h2></marquee>
+   
+        </div>
+        <div class="btn_2">
+            <button><a href="index.html">Back</button>
+            <button><a href="next.html">More..</button>
+            
+          </div>
+    </div>
+</body>
+</html>
